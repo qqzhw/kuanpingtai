@@ -1,5 +1,7 @@
 using Autofac;
 using Autofac.Core;
+using BLL;
+using BLL.Interfaces;
 using DAL;
 using DAL.Infrastructure;
 using System;
@@ -43,7 +45,7 @@ namespace KuanPT_NF.Test
 
           
             //controllers
-            builder.RegisterAssemblyTypes(typeFinder.GetAssemblies().ToArray());
+            builder.RegisterAssemblyTypes(typeFinder.GetAssemblies().ToArray()).InstancePerLifetimeScope();
              
            
             var sqlcon = ConfigurationManager.ConnectionStrings["ApplicationServices"].ToString();
@@ -51,6 +53,7 @@ namespace KuanPT_NF.Test
             builder.RegisterInstance(new DataConnection(connection)).SingleInstance();
           //  builder.RegisterGeneric(typeof(EfRepository<>)).As(typeof(IRepository<>)).InstancePerLifetimeScope();
             builder.RegisterGeneric(typeof(EfRepository<>)).As(typeof(IRepository<>)).WithParameter("context", connection).InstancePerLifetimeScope();
+            builder.RegisterType<User_Users>().As<IUser_Users>().InstancePerLifetimeScope();
 
         }
 

@@ -6,6 +6,7 @@ using DAL;
 using Dapper;
 using Dapper.Contrib.Extensions;
 using Model;
+using BLL.Interfaces;
 
 namespace KuanPT_NF.Test
 {
@@ -50,8 +51,13 @@ namespace KuanPT_NF.Test
            // IoC.InitializeWith(new DependencyResolverFactory());
                EngineContext.Initialize(false);
             var eng =  EngineContext.Current.Resolve<IRepository<Customer>>();
-          //  var bll = IoC.Resolve<IRepository<Customer>>();
-          //var sss=  bll.DbContext.Query(sql);
+            //  var bll = IoC.Resolve<IRepository<Customer>>();
+            //var sss=  bll.DbContext.Query(sql);
+            var a1 = EngineContext.Current.Resolve<IUser_Users>();
+            var a2 = EngineContext.Current.Resolve<IUser_Users>();
         }
+
+        
+        public string DD { get; set; }
     }
 }

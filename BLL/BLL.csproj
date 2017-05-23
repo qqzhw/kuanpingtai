@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Interfaces\IUser_Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User_Users.cs" />
   </ItemGroup>
@@ -48,6 +49,11 @@
       <Project>{6f34a5e2-957f-4668-95db-e7f7327df057}</Project>
       <Name>DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{B17A7935-45E2-45A8-99B7-3F0DC107B7AF}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
