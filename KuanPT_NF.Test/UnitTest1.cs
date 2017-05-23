@@ -53,6 +53,7 @@ namespace KuanPT_NF.Test
             var eng =  EngineContext.Current.Resolve<IRepository<Customer>>();
             //  var bll = IoC.Resolve<IRepository<Customer>>();
             //var sss=  bll.DbContext.Query(sql);
+            var a = eng.GetAll();
             var a1 = EngineContext.Current.Resolve<IUser_Users>();
             var a2 = EngineContext.Current.Resolve<IUser_Users>();
         }

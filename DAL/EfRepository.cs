@@ -184,8 +184,7 @@ namespace DAL
 		public IEnumerable<T> GetList<T1,T2,T3>(string sql)
 		{
 			var list = Connection.Query<T1,T2,T3,T>(sql,(t1,t2,t3)=> { return null; });
-			return list;
-
+			return list;            
 		}
 
         public IList<T> GetPageData(string fields="", string orderField="", int pageIndex=0,
