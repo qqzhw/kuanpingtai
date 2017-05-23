@@ -48,8 +48,8 @@ namespace KuanPT_NF.Test
 			FROM [dbo].[SYS_USER] s   join Customer_CustomerRole_Mapping cc on s.USER_ID=cc.USER_ID";
             var s = ConfigurationManager.AppSettings["dependencyResolverTypeName"];
            // IoC.InitializeWith(new DependencyResolverFactory());
-            Nop.Core.Infrastructure.EngineContext.Initialize(false);
-            var eng = Nop.Core.Infrastructure.EngineContext.Current.Resolve<IRepository<Customer>>();
+               EngineContext.Initialize(false);
+            var eng =  EngineContext.Current.Resolve<IRepository<Customer>>();
           //  var bll = IoC.Resolve<IRepository<Customer>>();
           //var sss=  bll.DbContext.Query(sql);
         }

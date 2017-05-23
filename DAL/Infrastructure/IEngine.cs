@@ -1,5 +1,4 @@
-﻿using System; 
-using Nop.Core.Infrastructure.DependencyManagement;
+﻿using System;  
 
 namespace DAL.Infrastructure
 {

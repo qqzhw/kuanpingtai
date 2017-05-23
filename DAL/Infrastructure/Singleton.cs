@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Nop.Core.Infrastructure
+namespace DAL.Infrastructure
 {
     /// <summary>
     /// A statically compiled "singleton" used to store objects throughout the 

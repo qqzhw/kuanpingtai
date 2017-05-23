@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Autofac;
-using Nop.Core.Infrastructure.DependencyManagement;
-
+using Autofac; 
 
 namespace DAL.Infrastructure
 {
@@ -19,15 +17,7 @@ namespace DAL.Infrastructure
         #endregion
 
         #region Utilities
-
-        /// <summary>
-        /// Run startup tasks
-        /// </summary>
-        protected virtual void RunStartupTasks()
-        {
-             
-        }
-
+         
         /// <summary>
         /// Register dependencies
         /// </summary>
@@ -37,8 +27,7 @@ namespace DAL.Infrastructure
             var builder = new ContainerBuilder();
             
             //dependencies
-            var typeFinder = new WebAppTypeFinder();
-           // builder.RegisterInstance(config).As<NopConfig>().SingleInstance();
+            var typeFinder = new WebAppTypeFinder(); 
             builder.RegisterInstance(this).As<IEngine>().SingleInstance();
             builder.RegisterInstance(typeFinder).As<ITypeFinder>().SingleInstance();
 

@@ -1,6 +1,6 @@
 ﻿using Autofac; 
 
-namespace Nop.Core.Infrastructure.DependencyManagement
+namespace DAL.Infrastructure
 {
     /// <summary>
     /// Dependency registrar interface

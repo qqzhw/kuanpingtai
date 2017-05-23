@@ -49,9 +49,15 @@ namespace DAL
         void Delete(IEnumerable<T> entities);
 
         /// <summary>
+        /// page search
+        /// </summary> 
+        IList<T>  GetPageData(string fields = "", string orderField = "", int pageIndex = 0,
+            int pageSize = int.MaxValue, string whereStr = "" );
+         
+        /// <summary>
         /// Gets a table
         /// </summary>
-        IEnumerable<T> Table { get; }
+        IEnumerable<T> GetAll();
 
 		IEnumerable<dynamic> GetList(string sql);
 

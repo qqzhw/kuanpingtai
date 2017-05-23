@@ -1,8 +1,7 @@
 using Autofac;
 using Autofac.Core;
 using DAL;
-using Nop.Core.Infrastructure;
-using Nop.Core.Infrastructure.DependencyManagement;
+using DAL.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Configuration;

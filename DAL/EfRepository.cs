@@ -171,19 +171,15 @@ namespace DAL
 		/// <summary>
 		/// Gets a table
 		/// </summary>
-		public virtual IEnumerable<T> Table
+		public virtual IEnumerable<T> GetAll()
         {
-            get
-            {
-                return null;
-            }
+            return Connection.GetAll<T>();
         }
 
         public IEnumerable<dynamic>  GetList(string sql)
 		{ 
 			var list=Connection.Query<dynamic>(sql);
-			return list; 
-		   
+			return list; 		   
 		}
 		public IEnumerable<T> GetList<T1,T2,T3>(string sql)
 		{
@@ -191,7 +187,24 @@ namespace DAL
 			return list;
 
 		}
-		public virtual string Database
+
+        public IList<T> GetPageData(string fields="", string orderField="", int pageIndex=0,
+            int pageSize=int.MaxValue, string whereStr=""  )
+        {             
+            var result = new List<T>();  
+            string sql = string.Format("SELECT {0} FROM (SELECT ROW_NUMBER() OVER (ORDER BY {1}) AS ROWID, "
+                + "{0} FROM {2} where 1=1 {3} ) AS t WHERE ROWID BETWEEN {4} AND {5}",
+                fields,
+                orderField,
+                "SY_ADMIN",
+                whereStr,
+                (pageIndex - 1) * pageSize + 1,
+                pageIndex * pageSize);
+            result =  Connection.Query<T>(sql).AsList();
+            return result; 
+        }
+
+        public virtual string Database
         {
             get
             {

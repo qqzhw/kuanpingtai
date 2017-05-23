@@ -73,16 +73,11 @@
     <Compile Include="Infrastructure\AppDomainTypeFinder.cs" />
     <Compile Include="Infrastructure\DependencyManagement\ContainerManager.cs" />
     <Compile Include="Infrastructure\DependencyManagement\IDependencyRegistrar.cs" />
-    <Compile Include="Infrastructure\DependencyResolverFactory.cs" />
     <Compile Include="Infrastructure\EngineContext.cs" />
-    <Compile Include="Infrastructure\IDependencyResolver.cs" />
     <Compile Include="Infrastructure\IEngine.cs" />
     <Compile Include="Infrastructure\ITypeFinder.cs" />
     <Compile Include="Infrastructure\KptEngine.cs" />
     <Compile Include="Infrastructure\Singleton.cs" />
-    <Compile Include="Infrastructure\UnityDependencyResolver.cs" />
-    <Compile Include="Infrastructure\UnityPerExecutionContextLifetimeManager.cs" />
-    <Compile Include="Infrastructure\UnityServiceLocator.cs" />
     <Compile Include="Infrastructure\WebAppTypeFinder.cs" />
     <Compile Include="Interfaces\IUser_Users.cs" />
     <Compile Include="IRepository.cs" />

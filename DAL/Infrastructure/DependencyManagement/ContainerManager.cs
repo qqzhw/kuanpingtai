@@ -5,7 +5,7 @@ using System.Web;
 using Autofac;
 using Autofac.Core.Lifetime; 
 
-namespace Nop.Core.Infrastructure.DependencyManagement
+namespace DAL.Infrastructure
 {
     /// <summary>
     /// Container manager
