@@ -57,12 +57,79 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\nivoslider\license.txt" />
+    <Content Include="Content\nivoslider\nivo-slider.css" />
+    <Content Include="Content\nivoslider\sample-images\banner1.jpg" />
+    <Content Include="Content\nivoslider\sample-images\banner2.jpg" />
+    <Content Include="Content\nivoslider\themes\bar\arrows.png" />
+    <Content Include="Content\nivoslider\themes\bar\bar.css" />
+    <Content Include="Content\nivoslider\themes\bar\bullets.png" />
+    <Content Include="Content\nivoslider\themes\bar\loading.gif" />
+    <Content Include="Content\nivoslider\themes\custom\arrows.png" />
+    <Content Include="Content\nivoslider\themes\custom\bullets.png" />
+    <Content Include="Content\nivoslider\themes\custom\custom.css" />
+    <Content Include="Content\nivoslider\themes\custom\loading.gif" />
+    <Content Include="Content\nivoslider\themes\dark\arrows.png" />
+    <Content Include="Content\nivoslider\themes\dark\bullets.png" />
+    <Content Include="Content\nivoslider\themes\dark\dark.css" />
+    <Content Include="Content\nivoslider\themes\dark\loading.gif" />
+    <Content Include="Content\nivoslider\themes\default\arrows.png" />
+    <Content Include="Content\nivoslider\themes\default\bullets.png" />
+    <Content Include="Content\nivoslider\themes\default\default.css" />
+    <Content Include="Content\nivoslider\themes\default\loading.gif" />
+    <Content Include="Content\nivoslider\themes\light\arrows.png" />
+    <Content Include="Content\nivoslider\themes\light\bullets.png" />
+    <Content Include="Content\nivoslider\themes\light\light.css" />
+    <Content Include="Content\nivoslider\themes\light\loading.gif" />
+    <Content Include="Content\Styles\kendo.common-nova.min.css" />
+    <Content Include="Content\Styles\kendo.mobile.nova.min.css" />
+    <Content Include="Content\Styles\kendo.nova.min.css" />
+    <Content Include="Content\Styles\Nova\editor.png" />
+    <Content Include="Content\Styles\Nova\imagebrowser.png" />
+    <Content Include="Content\Styles\Nova\indeterminate.gif" />
+    <Content Include="Content\Styles\Nova\loading-image.gif" />
+    <Content Include="Content\Styles\Nova\loading.gif" />
+    <Content Include="Content\Styles\Nova\loading_2x.gif" />
+    <Content Include="Content\Styles\Nova\markers.png" />
+    <Content Include="Content\Styles\Nova\markers_2x.png" />
+    <Content Include="Content\Styles\Nova\slider-h.gif" />
+    <Content Include="Content\Styles\Nova\slider-v.gif" />
+    <Content Include="Content\Styles\Nova\sprite.png" />
+    <Content Include="Content\Styles\Nova\sprite_2x.png" />
+    <Content Include="Content\Styles\Nova\sprite_kpi.png" />
+    <Content Include="Content\Styles\Nova\sprite_kpi_2x.png" />
+    <Content Include="m_kdO2O\Default.aspx" />
+    <Content Include="m_kdO2O\KdListView.aspx" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.custom.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.custom.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.nivo.slider.js" />
+    <Content Include="Scripts\kendo.mobile.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="m_kdO2O\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m_kdO2O\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="m_kdO2O\KdListView.aspx.cs">
+      <DependentUpon>KdListView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m_kdO2O\KdListView.aspx.designer.cs">
+      <DependentUpon>KdListView.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\nivoslider\README" />
+    <Content Include="Scripts\jquery.min.map" />
+    <Content Include="Scripts\kendo.mobile.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -70,9 +137,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="m_kdO2O\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
