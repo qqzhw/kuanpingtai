@@ -17,8 +17,34 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+     <div data-role="view">
+  <ul data-role="listview" data-source="groupedData" data-template="my-template" data-header-template="header-template"></ul>
+</div>
+
+<script type="text/x-kendo-template" id="my-template">
+  <h3 class="item-title">#: name #</h3>
+  <p class="item-info">#: description #</p>
+</script>
+
+<script type="text/x-kendo-template" id="header-template">
+    my group - #: value #
+</script>
+
+<script>
+var groupedData = new kendo.data.DataSource({
+  data: [
+    { name: "Sashimi Salad", description: "Organic greens topped with market fresh sashimi, wasabi soy vinaigrette.",  letter: "S" },
+    { name: "Seaweed Salad", description: "A nice seaweed salad.",  letter: "S" },
+    { name: "Edamame", description: "Boiled soy beans with salt.",  letter: "E" },
+    { name: "Maguro", description: "Tuna pieces.",  letter: "M" },
+    { name: "Tekka Maki", description: "Tuna roll with wasabi.",  letter: "T" },
+    { name: "California Rolls", description: "Crab sticks, avocado and cucumber.",  letter: "C" }
+  ],
+  group: { field: "letter" }
+});
+
+new kendo.mobile.Application();
+</script>
     </form>
 </body>
 </html>
