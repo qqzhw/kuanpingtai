@@ -102,6 +102,7 @@
     <Content Include="Content\Styles\Nova\sprite_2x.png" />
     <Content Include="Content\Styles\Nova\sprite_kpi.png" />
     <Content Include="Content\Styles\Nova\sprite_kpi_2x.png" />
+    <Content Include="Content\Styles\theme.css" />
     <Content Include="m_kdO2O\Default.aspx" />
     <Content Include="m_kdO2O\KdListView.aspx" />
     <Content Include="Scripts\jquery-1.10.2.js" />

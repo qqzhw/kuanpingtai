@@ -3606,3 +3606,135 @@ input[type=checkbox]:checked + label:before {
         transform: rotate(360deg);
     }
 }
+
+.widget-thumb {
+	padding: 20px;
+	border-radius: 4px
+}
+
+	.widget-thumb.bordered {
+		border: 1px solid #e7ecf1
+	}
+
+	.widget-thumb .widget-thumb-heading {
+		font-size: 14px;
+		font-weight: 700;
+		color: #8e9daa;
+		margin: 0 0 20px
+	}
+
+	.widget-thumb .widget-thumb-wrap {
+		overflow: hidden
+	}
+
+		.widget-thumb .widget-thumb-wrap .widget-thumb-icon {
+			float: left;
+			width: 60px;
+			height: 60px;
+			display: inline-block;
+			font-size: 20px;
+			line-height: 41px;
+			color: #fff;
+			text-align: center;
+			padding: 10px;
+			margin-right: 15px
+		}
+
+	.widget-thumb .widget-thumb-body {
+		overflow: hidden
+	}
+
+		.widget-thumb .widget-thumb-body .widget-thumb-subtitle {
+			padding-top: 2px;
+			display: block;
+			font-size: 14px;
+			font-weight: 600;
+			color: #8e9daa
+		}
+
+		.widget-thumb .widget-thumb-body .widget-thumb-body-stat {
+			display: block;
+			font-size: 30px;
+			font-weight: 600;
+			color: #3e4f5e
+		}
+
+.widget-socials {
+	border-radius: 4px;
+	min-height: 250px;
+	padding: 20px
+}
+
+.widget-comments, .widget-progress {
+	min-height: 420px
+}
+
+.widget-socials .widget-socials-title {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.4;
+	color: #fff;
+	margin: 0 0 20px
+}
+
+.widget-socials .widget-social-subtitle {
+	color: #fff;
+	font-weight: 200;
+	line-height: 1.4
+}
+
+.widget-media .widget-btn-blue .widget-btn-icon, .widget-media .widget-btn-default .widget-btn-icon, .widget-media .widget-btn-red .widget-btn-icon {
+	line-height: 1.5
+}
+
+.widget-socials .widget-social-subtitle a {
+	color: #fff
+}
+
+.widget-socials .widget-socials-paragraph {
+	display: block;
+	color: #65727d
+}
+
+.widget-socials .widget-social-icon-fb, .widget-socials .widget-social-icon-tw {
+	font-size: 30px;
+	margin: 30px 0
+}
+
+.widget-socials .widget-social-icon-fb {
+	color: #2b3f72
+}
+
+.widget-socials .widget-social-icon-tw {
+	color: #3686c3
+}
+.widget-thumb .widget-thumb-wrap .widget-thumb-icon {
+	float: left;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 41px;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	margin-right: 15px
+}
+.widget-thumb .widget-thumb-body {
+	overflow: hidden
+}
+
+	.widget-thumb .widget-thumb-body .widget-thumb-subtitle {
+		padding-top: 2px;
+		display: block;
+		font-size: 14px;
+		font-weight: 600;
+		color: #8e9daa
+	}
+
+	.widget-thumb .widget-thumb-body .widget-thumb-body-stat {
+		display: block;
+		font-size: 30px;
+		font-weight: 600;
+		color: #3e4f5e
+	}
