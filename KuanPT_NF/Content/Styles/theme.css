@@ -3655,6 +3655,9 @@ input[type=checkbox]:checked + label:before {
 .widget-socials .widget-social-icon-tw {
 	color: #3686c3
 }
+.widget-thumb .widget-thumb-wrap a {
+	text-decoration:none;
+}
 .widget-thumb .widget-thumb-wrap .widget-thumb-icon {
 	float: left;
 	width: 100px;
