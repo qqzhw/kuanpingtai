@@ -103,8 +103,9 @@ hr {
 }
 
 .b-hr {
-    margin: 0px 0 50px;
-	background-color:rgb(240,243,250)
+    margin: 0px 0 10px;
+	background:rgb(240,243,250);
+	height:25px;
 }
 
 .b-hr-mod {
@@ -1472,7 +1473,7 @@ footer .footer-socials .b-socials li a:hover {
 .b-item-card {
     border: 1px solid #eeeeee;
     text-align: center;
-    margin-top: 45px;
+    margin-top: 20px;
     margin-bottom: 5px;
     background: #fff;
     position: relative;
@@ -3586,7 +3587,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .widget-thumb {
-	padding: 20px;
+	padding: 15px;
 	border-radius: 4px
 }
 
@@ -3666,19 +3667,27 @@ input[type=checkbox]:checked + label:before {
 .widget-thumb .widget-thumb-body {
 	overflow: hidden; 
 }
-
-	.widget-thumb .widget-thumb-body .widget-thumb-subtitle {
-		padding-top: 2px;
+	.widget-thumb .widget-thumb-body .widget-thumb-title {
+		padding-top: 7px;
 		display: block;
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: 600;
-		color: #8e9daa; 
+		color: #3e4f5e;
+		font-weight: 800;
+	}
+	.widget-thumb .widget-thumb-body .widget-thumb-subtitle {
+		padding-top: 6px;
+		display: block;
+		font-size: 13px;
+		font-weight: 600;
+		color: #B9B9B9;
 	}
 	.widget-thumb .widget-thumb-body .widget-thumb-body-stat {
 		display: block;
-		font-size: 30px;
+		font-size: 14px;
 		font-weight: 600;
-		color: #3e4f5e;  
+		color: #FB8A8C;
+		padding-top: 6px;
 	}
 .list-left {
 	float: left;
@@ -3688,4 +3697,23 @@ input[type=checkbox]:checked + label:before {
 .list-left img {
 	border:none;
 	width:100px;
+}
+.btn {
+	outline: 0 !important;
+}
+	.btn.blue1:not(.btn-outline) {
+		color: #FFF;
+		background-color: #7BD67D;
+		border-color: #7BD67D;
+		text-align: center;
+		border-radius: 4px;
+	}
+	.btn.blue:not(.btn-outline) {
+		color: #FFF;
+		background-color: #57B5FC;
+		border-color: #57B5FC;
+		text-align:center;
+	}
+.btn:not(.btn-sm):not(.btn-lg) {
+	line-height: 1.44;
 }
