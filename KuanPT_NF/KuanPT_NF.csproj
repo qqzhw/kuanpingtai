@@ -58,6 +58,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="6s-plus.jpg" />
+    <Content Include="banner1.jpg" />
     <Content Include="Content\nivoslider\license.txt" />
     <Content Include="Content\nivoslider\nivo-slider.css" />
     <Content Include="Content\nivoslider\sample-images\banner1.jpg" />

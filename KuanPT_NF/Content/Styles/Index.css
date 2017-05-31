@@ -16126,7 +16126,8 @@ body[ng-controller] .modal {
 		}
 
 	.widget-thumb .widget-thumb-body {
-		overflow: hidden
+		overflow: hidden;
+		float:right;
 	}
 
 		.widget-thumb .widget-thumb-body .widget-thumb-subtitle {
