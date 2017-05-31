@@ -3594,13 +3594,16 @@ input[type=checkbox]:checked + label:before {
 	.widget-thumb.bordered {
 		border: 1px solid #e7ecf1
 	}
-
-	.widget-thumb .widget-thumb-heading {
-		font-size: 14px;
-		font-weight: 700;
-		color: #8e9daa;
-		margin: 0 0 20px
+	.widget-thumb.borderedbottom {
+		border-bottom: 1px solid #e7ecf1
 	}
+ 
+.widget-thumb .widget-thumb-heading {
+	font-size: 14px;
+	font-weight: 700;
+	color: #8e9daa;
+	margin: 0 0 20px
+}
 
 	 
 .widget-socials {
@@ -3698,6 +3701,16 @@ input[type=checkbox]:checked + label:before {
 	border:none;
 	width:100px;
 }
+.morelist-left {
+	float: left;
+	width: 130px; 
+}
+
+	.morelist-left img {
+		border: none;
+		width: 100px;
+		
+	}
 .btn {
 	outline: 0 !important;
 }
@@ -3716,4 +3729,8 @@ input[type=checkbox]:checked + label:before {
 	}
 .btn:not(.btn-sm):not(.btn-lg) {
 	line-height: 1.44;
+}
+.widget-thumb-list {
+	padding: 10px;
+	border-radius: 4px;
 }

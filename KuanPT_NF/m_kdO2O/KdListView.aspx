@@ -1,50 +1,107 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="KdListView.aspx.cs" Inherits="KuanPT_NF.m_kdO2O.KdListView" %>
 
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
- <meta name="viewport" content="width=device-width, initial-scale=1" />
-       <link href="https://kendo.cdn.telerik.com/2017.2.504/styles/kendo.common-nova.min.css" rel="stylesheet" />
-        <link href="https://kendo.cdn.telerik.com/2017.2.504/styles/kendo.nova.min.css" rel="stylesheet" />
-        <link href="https://kendo.cdn.telerik.com/2017.2.504/styles/kendo.mobile.nova.min.css" rel="stylesheet" />
-        <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.js"></script>
-        <script src="https://kendo.cdn.telerik.com/2017.2.504/js/jszip.min.js"></script>
-        <script src="https://kendo.cdn.telerik.com/2017.2.504/js/kendo.all.min.js"></script>
-        <script src="https://kendo.cdn.telerik.com/2017.2.504/js/kendo.timezones.min.js"></script>
-    <title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="../Content/Styles/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../Content/Styles/theme.css" />
+	<link rel="stylesheet" type="text/css" href="../Content/Styles/animate.css" />
+	<link rel="stylesheet" type="text/css" href="../Content/Styles/Search.css" />
+	<script type="text/javascript" src="../Scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="../Scripts/kendo.mobile.min.js"></script>
+	<title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
-     <div data-role="view">
-  <ul data-role="listview" data-source="groupedData" data-template="my-template" data-header-template="header-template"></ul>
-</div>
+	<form id="form1" runat="server">
+		<div class="search-page search-content-2">
+				<div class="search-bar">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="产品搜索..." />
+								<span class="input-group-btn">
+									<button class="btn bluesearch uppercase bold" type="button" style="height:42px;">搜索</button>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="container"> 
+			<div class="row widget-row"> 
+				<div class="col-md-12">
+					<!-- BEGIN WIDGET THUMB -->
+					<div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 borderedbottom">
+						<div class="widget-thumb-wrap row">
+							<div class="morelist-left">
+								<img src="../Content/Images/test20.png" />
+							</div>
+							<div class="col-xs-pull-12">
+								<div class="widget-thumb-body">
+									<span class="widget-thumb-title" style="margin-top: 2px;">个人消费满58元免费送</span>
+									<span class="widget-thumb-subtitle">20M+收视+手机成员1个</span>
+									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">78元/月</span>
+								</div>
+								<div style="float: right; width: 60px; height: 30px; background-color: #E6F2F6; overflow: hidden; margin-bottom: -20px; text-align: center;">
+									<div style="color: #93B5F2; margin-top: 5px; font-size: 14px;"><span>办理</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- END WIDGET THUMB -->
 
-<script type="text/x-kendo-template" id="my-template">
-  <h3 class="item-title">#: name #</h3>
-  <p class="item-info">#: description #</p>
-</script>
+				</div>
+				<div class="col-md-12">
+					<!-- BEGIN WIDGET THUMB -->
+					<div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 borderedbottom">
+						<div class="widget-thumb-wrap row">
+							<div class="morelist-left">
+								<img src="../Content/Images/test20.png" />
+							</div>
+							<div class="col-xs-pull-12">
+								<div class="widget-thumb-body">
+									<span class="widget-thumb-title" style="margin-top: 2px;">个人消费满58元免费送</span>
+									<span class="widget-thumb-subtitle">20M+收视+手机成员1个</span>
+									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">78元/月</span>
+								</div>
+								<div style="float: right; width: 60px; height: 30px; background-color: #E6F2F6; overflow: hidden; margin-bottom: -20px; text-align: center;">
+									<div style="color: #93B5F2; margin-top: 5px; font-size: 14px;"><span>办理</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- END WIDGET THUMB -->
 
-<script type="text/x-kendo-template" id="header-template">
-    my group - #: value #
-</script>
+				</div>
+				<div class="col-md-12">
+					<!-- BEGIN WIDGET THUMB --> 
+					<div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 borderedbottom">
+						<div class="widget-thumb-wrap row">
+							<div class="morelist-left">
+								<img src="../Content/Images/test20.png" />
+							</div>
+							<div class="col-xs-pull-12">
+								<div class="widget-thumb-body">
+									<span class="widget-thumb-title" style="margin-top: 2px;">个人消费满58元免费送</span>
+									<span class="widget-thumb-subtitle">20M+收视+手机成员1个</span>
+									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">78元/月</span>
+								</div>
+								<div style="float: right; width: 60px; height: 30px; background-color: #E6F2F6; overflow: hidden; margin-bottom: -20px; text-align: center;">
+									<div style="color: #93B5F2; margin-top: 5px; font-size: 14px;"><span>办理</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- END WIDGET THUMB -->
+                 
+				</div>
 
-<script>
-var groupedData = new kendo.data.DataSource({
-  data: [
-    { name: "Sashimi Salad", description: "Organic greens topped with market fresh sashimi, wasabi soy vinaigrette.",  letter: "S" },
-    { name: "Seaweed Salad", description: "A nice seaweed salad.",  letter: "S" },
-    { name: "Edamame", description: "Boiled soy beans with salt.",  letter: "E" },
-    { name: "Maguro", description: "Tuna pieces.",  letter: "M" },
-    { name: "Tekka Maki", description: "Tuna roll with wasabi.",  letter: "T" },
-    { name: "California Rolls", description: "Crab sticks, avocado and cucumber.",  letter: "C" }
-  ],
-  group: { field: "letter" }
-});
+			</div>
+		</div>
 
-new kendo.mobile.Application();
-</script>
-    </form>
+
+	</form>
 </body>
 </html>
