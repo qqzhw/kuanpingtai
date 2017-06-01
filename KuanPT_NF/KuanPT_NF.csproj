@@ -112,6 +112,7 @@
     <Content Include="Content\Styles\theme.css" />
     <Content Include="m_kdO2O\Default.aspx" />
     <Content Include="m_kdO2O\KdListView.aspx" />
+    <Content Include="m_kdO2O\ProductDetail.aspx" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.10.3.custom.js" />
@@ -135,6 +136,13 @@
     </Compile>
     <Compile Include="m_kdO2O\KdListView.aspx.designer.cs">
       <DependentUpon>KdListView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="m_kdO2O\ProductDetail.aspx.cs">
+      <DependentUpon>ProductDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m_kdO2O\ProductDetail.aspx.designer.cs">
+      <DependentUpon>ProductDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

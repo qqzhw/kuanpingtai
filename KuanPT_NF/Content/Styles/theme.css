@@ -3737,3 +3737,30 @@ input[type=checkbox]:checked + label:before {
 	padding: 10px;
 	border-radius: 4px;
 }
+ 
+.note {
+	margin: 0 0 0px;
+	padding: 5px 2px 5px 5px;
+	/*border-left: 5px solid #eee;*/
+	border-radius: 0 4px 4px 0;
+}
+	.note.note-danger {
+		background-color: #F2F6F7;
+		border-color: #f0868e;
+		color: #210406;
+	}
+	.note.note-danger a {
+	  text-decoration:none;
+	}
+.pcenter {
+	text-align:center;
+}
+.widget-thumb .widget-thumb-body .widget-thumb-title1 {
+	padding-top: 7px;
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	color: #3e4f5e;
+	font-weight: 800;
+	text-align:center;
+}
