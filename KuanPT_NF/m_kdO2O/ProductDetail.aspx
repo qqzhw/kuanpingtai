@@ -51,22 +51,9 @@
 				<div class="col-md-12">
 					<!-- BEGIN WIDGET THUMB -->
 					<div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 borderedbottom">
-						<div class="widget-thumb-wrap row">
-							<div class="morelist-left">
-								<a href="#">	<img src="../Content/Images/test20.png" /></a>
-							</div>
-							<div class="col-xs-pull-12">
-								<div class="widget-thumb-body">
-									<span class="widget-thumb-title" style="margin-top: 2px;">个人消费满58元免费送</span>
-									<span class="widget-thumb-subtitle">20M+收视+手机成员1个</span>
-									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">78元/月</span>
-								</div>
-									<a href="#">
-								<div style="float: right; width: 60px; height: 30px; background-color: #E6F2F6; overflow: hidden; margin-bottom: -20px; text-align: center;">
-									<div style="color: #93B5F2; margin-top: 5px; font-size: 14px;"><span>办理</span></div>
-								</div>
-										</a>
-							</div>
+						<div class="widget-thumb-wrap pcenter"> 
+						   <span style="font-size:16px;">业务介绍</span>
+							<div style="float:right;">∨</div>
 						</div>
 					</div>
 					<!-- END WIDGET THUMB -->
@@ -76,9 +63,7 @@
 					<!-- BEGIN WIDGET THUMB --> 
 					<div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 borderedbottom">
 						<div class="widget-thumb-wrap row">
-							<div class="morelist-left">
-							<a href="#"><img src="../Content/Images/test20.png" /></a>
-							</div>
+							 
 							<div class="col-xs-pull-12">
 								<div class="widget-thumb-body">
 									<span class="widget-thumb-title" style="margin-top: 2px;">个人消费满58元免费送</span>
