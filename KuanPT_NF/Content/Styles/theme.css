@@ -1684,7 +1684,6 @@ footer .footer-socials .b-socials li a:hover {
     text-decoration: none;
     outline: none;
 }
-
  
 
 @media screen and (max-width: 455px) {
@@ -3658,13 +3657,24 @@ input[type=checkbox]:checked + label:before {
 	}
 .btn {
 	outline: 0 !important;
+	text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px; 
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+	box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+	-webkit-transition: all 0.15s ease;
+	-moz-transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	-ms-transition: all 0.15s ease;
+	transition: all 0.15s ease;
 }
 	.btn.blue1:not(.btn-outline) {
 		color: #FFF;
 		background-color: #7BD67D;
 		border-color: #7BD67D;
-		text-align: center;
-		border-radius: 4px;
+		text-align: center; 
 	}
 	.btn.blue:not(.btn-outline) {
 		color: #FFF;

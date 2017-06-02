@@ -31,9 +31,7 @@
 					<img src="../Content/nivoslider/sample-images/banner2.jpg" data-thumb="../Content/nivoslider/sample-images/banner2.jpg" alt="" title="HTML5 with jQuery plugin Reel " /></a>
 
 			</div>
-		  <div id="htmlcaption" class="nivo-html-caption">
-                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-            </div> 
+		 
 		</div>
 		<div style="padding-left: 5px; padding-right: 5px; background-color: rgb(240,243,250)">
 			<div class="b-grid">
