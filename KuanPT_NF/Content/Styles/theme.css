@@ -3618,9 +3618,8 @@ input[type=checkbox]:checked + label:before {
 		padding-top: 7px;
 		display: block;
 		font-size: 18px;
-		font-weight: 600;
-		color: #3e4f5e;
 		font-weight: 800;
+		color: #3e4f5e; 
 	}
 	.widget-thumb .widget-thumb-body .widget-thumb-subtitle {
 		padding-top: 6px;

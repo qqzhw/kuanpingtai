@@ -36,13 +36,13 @@
 					<div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 borderedbottom">
 						<div class="widget-thumb-wrap row">
 							<div class="morelist-left">
-								<a href="#">	<img src="../Content/Images/test20.png" /></a>
+								<a href="#"><img src="../Content/Images/test20.png" /></a>
 							</div>
 							<div class="col-xs-pull-12">
 								<div class="widget-thumb-body">
-									<span class="widget-thumb-title" style="margin-top: 2px;">个人消费满58元免费送</span>
+									<span class="widget-thumb-title" style="margin-top: 2px;">手机+58</span>
 									<span class="widget-thumb-subtitle">20M+收视+手机成员1个</span>
-									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">78元/月</span>
+									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">￥78元/月</span>
 								</div>
 									<a href="#">
 								<div style="float: right; width: 60px; height: 30px; background-color: #E6F2F6; overflow: hidden; margin-bottom: -20px; text-align: center;">
@@ -64,9 +64,9 @@
 							</div>
 							<div class="col-xs-pull-12">
 								<div class="widget-thumb-body">
-									<span class="widget-thumb-title" style="margin-top: 2px;">个人消费满58元免费送</span>
-									<span class="widget-thumb-subtitle">20M+收视+手机成员1个</span>
-									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">78元/月</span>
+									<span class="widget-thumb-title" style="margin-top: 2px;">家庭优惠108元免费送</span>
+									<span class="widget-thumb-subtitle">20M+收视+手机成员1-2个</span>
+									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">￥108元/月</span>
 								</div>
 									<a href="#">
 								<div style="float: right; width: 60px; height: 30px; background-color: #E6F2F6; overflow: hidden; margin-bottom: -20px; text-align: center;">
@@ -84,13 +84,13 @@
 					<div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 borderedbottom">
 						<div class="widget-thumb-wrap row">
 							<div class="morelist-left">
-							<a href="#"><img src="../Content/Images/test20.png" /></a>
+							<a href="#"><img src="../Content/Images/50M.jpg" /></a>
 							</div>
 							<div class="col-xs-pull-12">
 								<div class="widget-thumb-body">
-									<span class="widget-thumb-title" style="margin-top: 2px;">个人消费满58元免费送</span>
-									<span class="widget-thumb-subtitle">20M+收视+手机成员1个</span>
-									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">78元/月</span>
+									<span class="widget-thumb-title" style="margin-top: 2px;">家庭优惠138元免费送</span>
+									<span class="widget-thumb-subtitle">50M+收视+手机成员1-2个</span>
+									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">￥138元/月</span>
 								</div>
 								<a href="#"><div style="float: right; width: 60px; height: 30px; background-color: #E6F2F6; overflow: hidden; margin-bottom: -20px; text-align: center;">
 										<div style="color: #93B5F2; margin-top: 5px; font-size: 14px;"><span>办理</span></div>
@@ -102,7 +102,66 @@
 					<!-- END WIDGET THUMB -->
                  
 				</div>
-
+					<div class="col-md-12"> 
+					<div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 borderedbottom">
+						<div class="widget-thumb-wrap row">
+							<div class="morelist-left">
+							<a href="#"><img src="../Content/Images/100M.png" /></a>
+							</div>
+							<div class="col-xs-pull-12">
+								<div class="widget-thumb-body">
+									<span class="widget-thumb-title" style="margin-top: 2px;">家庭优惠168元免费送</span>
+									<span class="widget-thumb-subtitle">100M+收视+手机成员1-3个</span>
+									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">￥168元/月</span>
+								</div>
+								<a href="#"><div style="float: right; width: 60px; height: 30px; background-color: #E6F2F6; overflow: hidden; margin-bottom: -20px; text-align: center;">
+										<div style="color: #93B5F2; margin-top: 5px; font-size: 14px;"><span>办理</span></div>
+								</div> 
+								</a>
+							</div>
+						</div>
+					</div> 
+				</div>
+					<div class="col-md-12"> 
+					<div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 borderedbottom">
+						<div class="widget-thumb-wrap row">
+							<div class="morelist-left">
+							<a href="#"><img src="../Content/Images/test30.png" /></a>
+							</div>
+							<div class="col-xs-pull-12">
+								<div class="widget-thumb-body">
+									<span class="widget-thumb-title" style="margin-top: 2px;">爱家138套餐</span>
+									<span class="widget-thumb-subtitle">30M+收视+手机成员1-2个</span>
+									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">￥138元/月</span>
+								</div>
+								<a href="#"><div style="float: right; width: 60px; height: 30px; background-color: #E6F2F6; overflow: hidden; margin-bottom: -20px; text-align: center;">
+										<div style="color: #93B5F2; margin-top: 5px; font-size: 14px;"><span>办理</span></div>
+								</div> 
+								</a>
+							</div>
+						</div>
+					</div> 
+				</div>
+					<div class="col-md-12"> 
+					<div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 borderedbottom">
+						<div class="widget-thumb-wrap row">
+							<div class="morelist-left">
+							<a href="#"><img src="../Content/Images/50M.jpg" /></a>
+							</div>
+							<div class="col-xs-pull-12">
+								<div class="widget-thumb-body">
+									<span class="widget-thumb-title" style="margin-top: 2px;">爱家168套餐</span>
+									<span class="widget-thumb-subtitle">50M+收视+手机成员1-2个</span>
+									<span class="widget-thumb-body-stat" data-counter="counterup" data-value="1,293">￥168元/月</span>
+								</div>
+								<a href="#"><div style="float: right; width: 60px; height: 30px; background-color: #E6F2F6; overflow: hidden; margin-bottom: -20px; text-align: center;">
+										<div style="color: #93B5F2; margin-top: 5px; font-size: 14px;"><span>办理</span></div>
+								</div> 
+								</a>
+							</div>
+						</div>
+					</div> 
+				</div>
 			</div>
 		</div>
 
