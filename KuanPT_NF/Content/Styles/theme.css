@@ -1509,7 +1509,12 @@ footer .footer-socials .b-socials li a:hover {
     -ms-transition: top ease-in-out 0.5s;
     transition: top ease-in-out 0.5s;
 }
-
+.image-add-mod a { 
+	position: relative;
+	top:35%;
+	margin-top:-5px;
+	vertical-align: middle;
+}
 .b-item-card .image .image-add .btn,
 .b-item-card .image .image-add-mod .btn {
     position: relative;
@@ -1548,14 +1553,6 @@ footer .footer-socials .b-socials li a:hover {
     height: 32px;
     text-align: center;
     line-height: 9px;
-}
-
-.b-item-card .card-info {
-    padding-top: 15px;
-}
-
-.b-item-card .card-info .rating {
-    display: none;
 }
 
 .b-item-card .add-buttons .btn-add-compare {
@@ -1638,30 +1635,8 @@ footer .footer-socials .b-socials li a:hover {
     margin-bottom: 7px;
 }
 
-
-/* shopping cart */
-
-.section-shopping-cart .b-page-header {
-    margin-bottom: 73px;
-}
-
-.b-cart-table .product-price {
-    line-height: 36px;
-}
-
-.b-cart-table .btn-remove,
-.b-cart-table .btn-menu {
-    margin-top: 7px;
-}
-
-.cart-table {
-    margin-bottom: 38px;
-}
-
-.b-cart-table .table tbody tr td:first-child {
-    padding: 41px 18px 30px 0;
-}
-
+ 
+ 
 .b-cart-table .table tbody tr td {
     padding: 47px 18px 30px 25px;
 }
@@ -1710,40 +1685,7 @@ footer .footer-socials .b-socials li a:hover {
     outline: none;
 }
 
-
-/* category */
-
-.b-settings .settings-tools {
-    margin-bottom: 20px;
-}
-
-.b-settings .settings-tools .settings-counter {
-    padding-left: 15px;
-    font-size: 14px;
-    color: #888888;
-}
-
-.b-settings .settings-result {
-    padding-top: 50px;
-    border-top: 1px solid #eeeeee;
-}
-
-
-/* view settings */
-
-.settings-block {
-    margin-top: 20px;
-}
-
-.settings-block .settings-options,
-.settings-block .settings-view {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.settings-block .settings-options .select-block {
-    display: inline-block;
-}
+ 
 
 @media screen and (max-width: 455px) {
     .settings-block .settings-options .select-block {

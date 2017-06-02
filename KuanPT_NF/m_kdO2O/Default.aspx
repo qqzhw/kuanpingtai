@@ -31,9 +31,9 @@
 					<img src="../Content/nivoslider/sample-images/banner2.jpg" data-thumb="../Content/nivoslider/sample-images/banner2.jpg" alt="" title="HTML5 with jQuery plugin Reel " /></a>
 
 			</div>
-			<%-- <div id="htmlcaption" class="nivo-html-caption">
+		  <div id="htmlcaption" class="nivo-html-caption">
                 <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-            </div>--%>
+            </div> 
 		</div>
 		<div style="padding-left: 5px; padding-right: 5px; background-color: rgb(240,243,250)">
 			<div class="b-grid">
@@ -43,14 +43,11 @@
 								<div class="special-plank new">
 								<span>new</span>
 							</div>
-							<div class="image">
-								<a href="6s-plus.jpg" data-gal="prettyPhoto" title="6s Plus">
+							<div class="image"> 
 									<img src="../Content/Images/1521.png" class="img-responsive center-block" alt="6s Plus" />
-									<div class="image-add-mod">
-										<span class="btn btn-lightbox btn-default-color1 btn-sm">立即办理
-										</span>
-									</div>
-								</a>
+									<div class="image-add-mod" >
+											<a href="#" ><img src="../Content/Images/lijibanli.png" alt=""/></a>
+									</div> 
 							</div> 
 						</div>
 					</div>
@@ -59,15 +56,11 @@
 							<div class="special-plank new">
 								<span>new</span>
 							</div>
-							<div class="image">
-								<a href="media/item-card-media/mate-s.jpg" data-gal="prettyPhoto" title="Item">
+							<div class="image"> 
 									<img src="../Content/Images/1521.png" class="img-responsive center-block" alt="HUAWEI Mate S" />
 									<div class="image-add-mod">
-										<span class="btn btn-lightbox btn-default-color1 btn-sm">
-											<i class="fa fa-search-plus fa-lg"></i>
-										</span>
-									</div>
-								</a>
+									 	<a href="#"><img src="../Content/Images/lijibanli.png" alt=""/></a>
+									</div> 
 							</div>
 						</div>
 					</div>
@@ -76,15 +69,11 @@
 							<div class="special-plank new">
 								<span>new</span>
 							</div>
-							<div class="image">
-								<a href="media/item-card-media/xperia.jpg" data-gal="prettyPhoto" title="Item">
+							<div class="image"> 
 									<img src="../Content/Images/1252.png" class="img-responsive center-block" alt="Xperia" />
 									<div class="image-add-mod">
-										<span class="btn btn-lightbox btn-default-color1 btn-sm">
-											<i class="fa fa-search-plus fa-lg"></i>
-										</span>
-									</div>
-								</a>
+										 	<a href="#"><img src="../Content/Images/lijibanli.png" alt=""/></a>
+									</div> 
 							</div> 
 						</div>
 					</div>
@@ -93,15 +82,11 @@
 							<div class="special-plank new">
 								<span>new</span>
 							</div>
-							<div class="image">
-								<a href="media/item-card-media/mi41.jpg" data-gal="prettyPhoto" title="Item">
+							<div class="image"> 
 									<img src="../Content/Images/1252.png" class="img-responsive center-block" alt="MI 41"/>
 									<div class="image-add-mod">
-										<span class="btn btn-lightbox btn-default-color1 btn-sm">
-											<i class="fa fa-search-plus fa-lg"></i>
-										</span>
-									</div>
-								</a>
+									 	<a href="#"><img src="../Content/Images/lijibanli.png" alt=""/></a>
+									</div>  
 							</div> 
 						</div>
 					</div> 
